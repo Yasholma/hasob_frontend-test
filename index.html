@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hasob Frontend Test</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="alert hide"></div>
+    <h1 class="centered my3 white caps">Hasob Frontend Test</h1>
+    <section class="question-wrapper">
+      <span class="question-progress"></span>
+      <div class="question-header centered">Step One</div>
+
+      <form>
+        <!-- section one -->
+        <section class="question one">
+          <h4>Select favourite track</h4>
+          <div class="form-group">
+            <input
+              type="radio"
+              name="favourite-track"
+              id="frontend"
+              value="frontend"
+            />
+            <label for="frontend">Frontend</label>
+          </div>
+          <div class="form-group">
+            <input
+              type="radio"
+              name="favourite-track"
+              id="backend"
+              value="backend"
+            />
+            <label for="backend">Backend</label>
+          </div>
+          <div class="form-group">
+            <input
+              type="radio"
+              name="favourite-track"
+              id="mobile"
+              value="mobile"
+            />
+            <label for="mobile">Mobile</label>
+          </div>
+          <div class="form-group">
+            <input
+              type="radio"
+              name="favourite-track"
+              id="desktop"
+              value="desktop"
+            />
+            <label for="desktop">Desktop</label>
+          </div>
+        </section>
+
+        <!-- section two -->
+        <section class="question two hide">
+          <h4>Select favourite stack</h4>
+          <div class="form-group">
+            <select name="stack" id="stack" class="stack input">
+              <option value="">Select one please</option>
+            </select>
+          </div>
+        </section>
+
+        <!-- section three -->
+        <section class="question three hide">
+          <h4>Select other favourite stacks</h4>
+          <div class="form-group">
+            <input
+              type="checkbox"
+              name="favourite-stack"
+              id="python"
+              value="python"
+            />
+            <label for="python">Python</label>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="checkbox"
+              name="favourite-stack"
+              id="javascript"
+              value="javascript"
+            />
+            <label for="javascript">JavaScript</label>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="checkbox"
+              name="favourite-stack"
+              id="java"
+              value="java"
+            />
+            <label for="java">Java</label>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="checkbox"
+              name="favourite-stack"
+              id="c++"
+              value="c++"
+            />
+            <label for="c++">C++</label>
+          </div>
+        </section>
+
+        <!-- section four -->
+        <section class="question four hide">
+          <h4>Enter your email address</h4>
+          <div class="form-group">
+            <input
+              type="email"
+              class="input"
+              id="email"
+              placeholder="johndoe@gmail.com..."
+            />
+          </div>
+        </section>
+      </form>
+
+      <!-- summary section and conclusion -->
+      <section class="summary hide">
+        <h4 class="summary-header">
+          Congratulations, your data has been submitted
+        </h4>
+        <pre id="summaryData"></pre>
+      </section>
+
+      <div class="question-footer">
+        <nav class="navigation-buttons">
+          <span class="nav-btn prev-btn">
+            <?xml version="1.0" encoding="iso-8859-1"?>
+            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 443.52 443.52"
+              style="enable-background: new 0 0 443.52 443.52"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <path
+                    d="M143.492,221.863L336.226,29.129c6.663-6.664,6.663-17.468,0-24.132c-6.665-6.662-17.468-6.662-24.132,0l-204.8,204.8
+                        c-6.662,6.664-6.662,17.468,0,24.132l204.8,204.8c6.78,6.548,17.584,6.36,24.132-0.42c6.387-6.614,6.387-17.099,0-23.712
+                        L143.492,221.863z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </span>
+
+          <span class="nav-btn next-btn">
+            <?xml version="1.0" encoding="iso-8859-1"?>
+            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 443.52 443.52"
+              style="enable-background: new 0 0 443.52 443.52"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <path
+                    d="M336.226,209.591l-204.8-204.8c-6.78-6.548-17.584-6.36-24.132,0.42c-6.388,6.614-6.388,17.099,0,23.712l192.734,192.734
+                        L107.294,414.391c-6.663,6.664-6.663,17.468,0,24.132c6.665,6.663,17.468,6.663,24.132,0l204.8-204.8
+                        C342.889,227.058,342.889,216.255,336.226,209.591z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Main JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
